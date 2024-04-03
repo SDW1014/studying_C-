@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2024_04_02">
+      <UniqueIdentifier>{2b1fa503-67fd-4cc4-ae6b-d7c206d58a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_02\소스">
+      <UniqueIdentifier>{ba330573-3d00-4148-ae55-5ac19bc98d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_02\헤더">
+      <UniqueIdentifier>{3530cc23-a90c-4a9e-be02-9d0b4dbe20d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_03">
+      <UniqueIdentifier>{e5e59dcf-6685-4f5f-8a7a-c5ca84f64342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_03\헤더">
+      <UniqueIdentifier>{d4421225-bed9-4fa4-99f1-679a8065e02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_03\소스">
+      <UniqueIdentifier>{d4b118d9-8769-4327-8c36-5b1a6b70c93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_04">
+      <UniqueIdentifier>{bb8c9f16-08b0-4cd3-a75f-1f30ee90d12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_04\소스">
+      <UniqueIdentifier>{3810cbac-e785-4685-bee4-f144a0b08217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_04\헤더">
+      <UniqueIdentifier>{533bbf49-aa0d-49ec-b85f-a9f78d4a2536}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass.cpp">
+      <Filter>2024_04_02\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="i_want_your_setting.cpp">
+      <Filter>2024_04_03\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfo.cpp">
+      <Filter>2024_04_03\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDetails.cpp">
+      <Filter>2024_04_03\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="BankAccount.cpp">
+      <Filter>2024_04_04\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>2024_04_04\소스</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyClass.h">
+      <Filter>2024_04_02\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="i_want_your_setting.h">
+      <Filter>2024_04_03\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfo.h">
+      <Filter>2024_04_03\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDetails.h">
+      <Filter>2024_04_03\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="BankAccount.h">
+      <Filter>2024_04_04\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>2024_04_04\헤더</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
