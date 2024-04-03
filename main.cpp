@@ -6,5 +6,6 @@ int main()
     Calculator calculator;
     calculator.inputNumbers();
     calculator.performOperations();
+
     return 0;
 }
