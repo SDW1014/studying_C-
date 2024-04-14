@@ -75,6 +75,9 @@
     <ClCompile Include="ControFlowExamples.cpp">
       <Filter>2024_04_13\소스</Filter>
     </ClCompile>
+    <ClCompile Include="ControlFlowExamples.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">
@@ -97,6 +100,9 @@
     </ClInclude>
     <ClInclude Include="ControFlowExamples.h">
       <Filter>2024_04_13\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlFlowExamples.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
