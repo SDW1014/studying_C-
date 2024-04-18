@@ -100,6 +100,9 @@
       <Filter>2024_04_15\소스</Filter>
     </ClCompile>
     <ClCompile Include="fstrema20240418.cpp">
+      <Filter>2024-04-18\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack20240418.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -132,6 +135,9 @@
       <Filter>2024_04_15\헤더</Filter>
     </ClInclude>
     <ClInclude Include="fstrema20240418.h">
+      <Filter>2024-04-18\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack20240418.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

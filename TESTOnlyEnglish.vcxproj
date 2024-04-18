@@ -145,6 +145,7 @@
     <ClCompile Include="i_want_your_setting.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyClass.cpp" />
+    <ClCompile Include="Stack20240418.cpp" />
     <ClCompile Include="UserDetails.cpp" />
     <ClCompile Include="UserInfo.cpp" />
   </ItemGroup>
@@ -157,6 +158,7 @@
     <ClInclude Include="GradeManager.h" />
     <ClInclude Include="i_want_your_setting.h" />
     <ClInclude Include="MyClass.h" />
+    <ClInclude Include="Stack20240418.h" />
     <ClInclude Include="UserDetails.h" />
     <ClInclude Include="UserInfo.h" />
   </ItemGroup>

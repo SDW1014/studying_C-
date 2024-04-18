@@ -1,19 +1,22 @@
 #include <iostream>
-#include "fstrema20240418.h"
+#include "Stack20240418.h"
+
 using namespace std;
 
 int main()
 {
-	string filename = "example.txt";
-	try
-	{
-		fstrema20240418 fileTest(filename);
+	Stack20240418<int> stack1;
 
-		cout << "파일을 잘 열어 보았습니다." << endl;
-	}
-	catch (const exception& e)
+	stack1.push(1);
+	stack1.push(2);
+	stack1.push(3);
+
+	cout << "Top element: " << stack1.top() << endl;
+
+	while (!stack1.isEmpty())
 	{
-		cerr << "파일을 열지 못했습니다." << e.what() << endl;
+		cout << "Popped element: " << stack1.pop() << endl;
 	}
+
 	return 0;
 }
