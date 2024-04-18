@@ -137,6 +137,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BankAccount.cpp" />
+    <ClCompile Include="Calculate20240419.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Container20240419.cpp" />
     <ClCompile Include="ControFlowExamples.cpp" />
@@ -153,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BankAccount.h" />
+    <ClInclude Include="Calculate20240419.h" />
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="Container20240419.h" />
     <ClInclude Include="ControFlowExamples.h" />

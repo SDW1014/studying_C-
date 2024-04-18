@@ -120,6 +120,9 @@
     <ClCompile Include="Container20240419.cpp">
       <Filter>2024-04-19\소스</Filter>
     </ClCompile>
+    <ClCompile Include="Calculate20240419.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">
@@ -160,6 +163,9 @@
     </ClInclude>
     <ClInclude Include="Container20240419.h">
       <Filter>2024-04-19\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate20240419.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

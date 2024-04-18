@@ -1,22 +1,28 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include "Container20240419.h"
-
+#include <stdexcept>
+#include "Calculate20240419.h"
 using namespace std;
 
 int main()
 {
-	Container20240419<int> intContainer;
-	Container20240419<string> stringContainer;
+	double num1, num2;
+	char op;
+	cout << "Enter two numbers and and operator (+, -, *, /): ";
+	cin >> num1 >> num2 >> op;
 
-	intContainer.add(10);
-	intContainer.add(20);
-	intContainer.print();
-
-	stringContainer.add("Hello");
-	stringContainer.add("World");
-	stringContainer.print();
+	try
+	{
+		double result = calculate(num1, num2, op);
+		cout << "Result: " << result << endl;
+	}
+	catch (const runtime_error& e)
+	{
+		cout << e.what() << endl;
+	}
+	catch (const invalid_argument& e)
+	{
+		cout << e.what() << endl;
+	}
 
 	return 0;
 }
