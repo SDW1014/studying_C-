@@ -67,6 +67,15 @@
     <Filter Include="2024-04-18\헤더">
       <UniqueIdentifier>{19409640-f4c2-42c3-ae2b-b56222acaeca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2024-04-19">
+      <UniqueIdentifier>{6cf94674-9155-47da-ad0c-1c04b3196838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024-04-19\소스">
+      <UniqueIdentifier>{4894d00a-e66a-45a0-a86e-334448cd8ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024-04-19\헤더">
+      <UniqueIdentifier>{1388be2e-32c2-4cba-ba6d-9bcc014f28c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -103,7 +112,13 @@
       <Filter>2024-04-18\소스</Filter>
     </ClCompile>
     <ClCompile Include="Stack20240418.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>2024-04-18\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="incremenet_array20240419.cpp">
+      <Filter>2024-04-19\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Container20240419.cpp">
+      <Filter>2024-04-19\소스</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -138,7 +153,13 @@
       <Filter>2024-04-18\헤더</Filter>
     </ClInclude>
     <ClInclude Include="Stack20240418.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>2024-04-18\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="incremenet_array20240419.h">
+      <Filter>2024-04-19\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Container20240419.h">
+      <Filter>2024-04-19\헤더</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

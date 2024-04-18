@@ -1,22 +1,22 @@
 #include <iostream>
-#include "Stack20240418.h"
+#include <vector>
+#include <string>
+#include "Container20240419.h"
 
 using namespace std;
 
 int main()
 {
-	Stack20240418<int> stack1;
+	Container20240419<int> intContainer;
+	Container20240419<string> stringContainer;
 
-	stack1.push(1);
-	stack1.push(2);
-	stack1.push(3);
+	intContainer.add(10);
+	intContainer.add(20);
+	intContainer.print();
 
-	cout << "Top element: " << stack1.top() << endl;
-
-	while (!stack1.isEmpty())
-	{
-		cout << "Popped element: " << stack1.pop() << endl;
-	}
+	stringContainer.add("Hello");
+	stringContainer.add("World");
+	stringContainer.print();
 
 	return 0;
 }

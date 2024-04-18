@@ -138,10 +138,12 @@
   <ItemGroup>
     <ClCompile Include="BankAccount.cpp" />
     <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Container20240419.cpp" />
     <ClCompile Include="ControFlowExamples.cpp" />
     <ClCompile Include="ControlFlowExamples.cpp" />
     <ClCompile Include="fstrema20240418.cpp" />
     <ClCompile Include="GradeManager.cpp" />
+    <ClCompile Include="incremenet_array20240419.cpp" />
     <ClCompile Include="i_want_your_setting.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyClass.cpp" />
@@ -152,10 +154,12 @@
   <ItemGroup>
     <ClInclude Include="BankAccount.h" />
     <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Container20240419.h" />
     <ClInclude Include="ControFlowExamples.h" />
     <ClInclude Include="ControlFlowExamples.h" />
     <ClInclude Include="fstrema20240418.h" />
     <ClInclude Include="GradeManager.h" />
+    <ClInclude Include="incremenet_array20240419.h" />
     <ClInclude Include="i_want_your_setting.h" />
     <ClInclude Include="MyClass.h" />
     <ClInclude Include="Stack20240418.h" />
