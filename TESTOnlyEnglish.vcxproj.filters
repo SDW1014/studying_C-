@@ -49,6 +49,24 @@
     <Filter Include="2024_04_13\헤더">
       <UniqueIdentifier>{a62de9a8-0ea4-40fa-bdb5-9b764def0847}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2024_04_15">
+      <UniqueIdentifier>{eb1f5ed8-c477-4435-bd08-5ec885e9a340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_15\소스">
+      <UniqueIdentifier>{7dbe89e7-3519-4a12-8cf8-761d22178801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024_04_15\헤더">
+      <UniqueIdentifier>{3ba0598a-03fe-4aa6-8a6a-44030580bb66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024-04-18">
+      <UniqueIdentifier>{7067d7df-726c-447b-9bc8-df6e14dafd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024-04-18\소스">
+      <UniqueIdentifier>{9ee9858f-c8fa-47e3-b102-e0121bbb6902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024-04-18\헤더">
+      <UniqueIdentifier>{19409640-f4c2-42c3-ae2b-b56222acaeca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -76,6 +94,12 @@
       <Filter>2024_04_13\소스</Filter>
     </ClCompile>
     <ClCompile Include="ControlFlowExamples.cpp">
+      <Filter>2024_04_15\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeManager.cpp">
+      <Filter>2024_04_15\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="fstrema20240418.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -102,6 +126,12 @@
       <Filter>2024_04_13\헤더</Filter>
     </ClInclude>
     <ClInclude Include="ControlFlowExamples.h">
+      <Filter>2024_04_15\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="GradeManager.h">
+      <Filter>2024_04_15\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="fstrema20240418.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
