@@ -142,6 +142,7 @@
     <ClCompile Include="Container20240419.cpp" />
     <ClCompile Include="ControFlowExamples.cpp" />
     <ClCompile Include="ControlFlowExamples.cpp" />
+    <ClCompile Include="convertToUpper20240421.cpp" />
     <ClCompile Include="fstrema20240418.cpp" />
     <ClCompile Include="GradeManager.cpp" />
     <ClCompile Include="incremenet_array20240419.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="Container20240419.h" />
     <ClInclude Include="ControFlowExamples.h" />
     <ClInclude Include="ControlFlowExamples.h" />
+    <ClInclude Include="convertToUpper20240421.h" />
     <ClInclude Include="fstrema20240418.h" />
     <ClInclude Include="GradeManager.h" />
     <ClInclude Include="incremenet_array20240419.h" />

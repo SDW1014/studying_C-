@@ -76,6 +76,15 @@
     <Filter Include="2024-04-19\헤더">
       <UniqueIdentifier>{1388be2e-32c2-4cba-ba6d-9bcc014f28c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2024-04-21">
+      <UniqueIdentifier>{5d965a9d-96ce-4c2f-880f-3f4016ee3f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024-04-21\소스">
+      <UniqueIdentifier>{cb7d10b7-5ab8-445c-85ce-2cd63b6c153a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2024-04-21\헤더">
+      <UniqueIdentifier>{9327aabf-4dc5-4e67-a7db-a9c2e66612d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -121,6 +130,9 @@
       <Filter>2024-04-19\소스</Filter>
     </ClCompile>
     <ClCompile Include="Calculate20240419.cpp">
+      <Filter>2024-04-19\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="convertToUpper20240421.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -165,6 +177,9 @@
       <Filter>2024-04-19\헤더</Filter>
     </ClInclude>
     <ClInclude Include="Calculate20240419.h">
+      <Filter>2024-04-19\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="convertToUpper20240421.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
