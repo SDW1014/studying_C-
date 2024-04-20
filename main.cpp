@@ -1,7 +1,14 @@
-#include "convertToUpper20240421.h"
+#include "MacroExample20240421.h"
 
 int main()
 {
-	convertToUpper20240421 convertClass("input.txt", "output.txt");
+	MacroExample20240421 example;
+
+	example.defineExampleFirst();
+	example.defineExampleSecond();
+	example.defineExampleThird();
+
+	example.usingEverthing();
+
 	return 0;
 }

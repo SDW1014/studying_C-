@@ -147,6 +147,7 @@
     <ClCompile Include="GradeManager.cpp" />
     <ClCompile Include="incremenet_array20240419.cpp" />
     <ClCompile Include="i_want_your_setting.cpp" />
+    <ClCompile Include="MacroExample20240421.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyClass.cpp" />
     <ClCompile Include="Stack20240418.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="GradeManager.h" />
     <ClInclude Include="incremenet_array20240419.h" />
     <ClInclude Include="i_want_your_setting.h" />
+    <ClInclude Include="MacroExample20240421.h" />
     <ClInclude Include="MyClass.h" />
     <ClInclude Include="Stack20240418.h" />
     <ClInclude Include="UserDetails.h" />
