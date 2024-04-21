@@ -136,13 +136,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal20240421.cpp" />
     <ClCompile Include="BankAccount.cpp" />
     <ClCompile Include="Calculate20240419.cpp" />
     <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Cat20240421.cpp" />
     <ClCompile Include="Container20240419.cpp" />
     <ClCompile Include="ControFlowExamples.cpp" />
     <ClCompile Include="ControlFlowExamples.cpp" />
     <ClCompile Include="convertToUpper20240421.cpp" />
+    <ClCompile Include="Dog20240421.cpp" />
     <ClCompile Include="fstrema20240418.cpp" />
     <ClCompile Include="GradeManager.cpp" />
     <ClCompile Include="incremenet_array20240419.cpp" />
@@ -155,13 +158,16 @@
     <ClCompile Include="UserInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal20240421.h" />
     <ClInclude Include="BankAccount.h" />
     <ClInclude Include="Calculate20240419.h" />
     <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Cat20240421.h" />
     <ClInclude Include="Container20240419.h" />
     <ClInclude Include="ControFlowExamples.h" />
     <ClInclude Include="ControlFlowExamples.h" />
     <ClInclude Include="convertToUpper20240421.h" />
+    <ClInclude Include="Dog20240421.h" />
     <ClInclude Include="fstrema20240418.h" />
     <ClInclude Include="GradeManager.h" />
     <ClInclude Include="incremenet_array20240419.h" />

@@ -1,14 +1,31 @@
-#include "MacroExample20240421.h"
+#include <iostream>
+#include <vector>
+#include "Animal20240421.h"
+#include "Dog20240421.h"
+#include "Cat20240421.h"
+
+using namespace std;
+
 
 int main()
 {
-	MacroExample20240421 example;
+	vector<Animal20240421*> vAnimal;
 
-	example.defineExampleFirst();
-	example.defineExampleSecond();
-	example.defineExampleThird();
+	vAnimal.push_back(new Animal20240421());
+	vAnimal.push_back(new Dog20240421());
+	vAnimal.push_back(new Cat20240421());
 
-	example.usingEverthing();
+	for (auto& animal : vAnimal)
+	{
+		animal->speak();
+	}
+
+	for (auto& animal : vAnimal)
+	{
+		delete animal;
+	}
+
+	vAnimal.clear();
 
 	return 0;
 }

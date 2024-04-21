@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="헤더 파일">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -85,6 +81,13 @@
     <Filter Include="2024-04-21\헤더">
       <UniqueIdentifier>{9327aabf-4dc5-4e67-a7db-a9c2e66612d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2024-04-21\pinterExample">
+      <UniqueIdentifier>{bde1b8f9-296f-46c3-ac6b-96e1ef74f68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -138,6 +141,15 @@
     <ClCompile Include="MacroExample20240421.cpp">
       <Filter>2024-04-21\소스</Filter>
     </ClCompile>
+    <ClCompile Include="Animal20240421.cpp">
+      <Filter>2024-04-21\pinterExample</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog20240421.cpp">
+      <Filter>2024-04-21\pinterExample</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat20240421.cpp">
+      <Filter>2024-04-21\pinterExample</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">
@@ -187,6 +199,15 @@
     </ClInclude>
     <ClInclude Include="MacroExample20240421.h">
       <Filter>2024-04-21\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal20240421.h">
+      <Filter>2024-04-21\pinterExample</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog20240421.h">
+      <Filter>2024-04-21\pinterExample</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat20240421.h">
+      <Filter>2024-04-21\pinterExample</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
