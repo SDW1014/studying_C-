@@ -1,22 +1,54 @@
 #include <iostream>
-
 using namespace std;
 
-int add(int a, int b)
+class BankAccount2
 {
-	return a + b;
-}
+private:
+	double balance;
+public:
+	BankAccount2(double initialBalance)
+	{
+		if (initialBalance < 0)
+		{
+			throw invalid_argument("Initial balance cannot be negative.");
+		}
+		balance = initialBalance;
+	}
 
-double add(double a, double b, double c = 0.0)
-{
-	return a + b + c;
-}
+	void deposit(double amount)
+	{
+		if (amount <= 0)
+		{
+			throw invalid_argument("Deposit amount must be positive.");
+		}
+		balance += amount;
+	}
+
+	void withdraw(double amount)
+	{
+		if (amount > balance)
+		{
+			throw invalid_argument("Withdrawal amount exceeds balance.");
+		}
+		balance -= amount;
+	}
+
+	double getBalance() const
+	{
+		return balance;
+	}
+};
 
 int main()
 {
-	cout << "정수의 합 : " << add(3, 4) << endl;
-	cout << "실수의 합 : " << add(1.1, 2.2) << endl;
-	cout << "실수의 합 (세개) : " << add(1.1, 2.2, 3.3) << endl;
+	BankAccount2 account(100.0);
+
+	account.deposit(50.0);
+	cout << "Current balance after deposit : " << account.getBalance() << endl;
+
+	account.withdraw(30.0);
+	cout << "Current balance after withdrawal : " << account.getBalance() << endl;
+
 
 	return 0;
 }
