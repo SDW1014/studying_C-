@@ -1,54 +1,45 @@
 #include <iostream>
+
 using namespace std;
 
-class BankAccount2
+class shape
+{
+public :
+	virtual double getArea() const = 0;
+};
+
+class Circle : public shape
 {
 private:
-	double balance;
+	double radius;
 public:
-	BankAccount2(double initialBalance)
+	Circle(double r) : radius(r) {}
+	double getArea() const override
 	{
-		if (initialBalance < 0)
-		{
-			throw invalid_argument("Initial balance cannot be negative.");
-		}
-		balance = initialBalance;
+		return 3.141592 * radius * radius;
 	}
+};
+class Rectangle : public shape
+{
+private:
+	double width;
+	double height;
 
-	void deposit(double amount)
+public:
+	Rectangle(double w, double h) : width(w), height(h) {}
+	double getArea() const override
 	{
-		if (amount <= 0)
-		{
-			throw invalid_argument("Deposit amount must be positive.");
-		}
-		balance += amount;
-	}
-
-	void withdraw(double amount)
-	{
-		if (amount > balance)
-		{
-			throw invalid_argument("Withdrawal amount exceeds balance.");
-		}
-		balance -= amount;
-	}
-
-	double getBalance() const
-	{
-		return balance;
+		return width * height;
 	}
 };
 
 int main()
 {
-	BankAccount2 account(100.0);
+	Circle c(5.0);
+	Rectangle r(4.0, 6.0);
 
-	account.deposit(50.0);
-	cout << "Current balance after deposit : " << account.getBalance() << endl;
-
-	account.withdraw(30.0);
-	cout << "Current balance after withdrawal : " << account.getBalance() << endl;
-
+	cout << "Circle area : " << c.getArea() << endl;
+	cout << "Rectangle area : " << r.getArea() << endl;
 
 	return 0;
 }
