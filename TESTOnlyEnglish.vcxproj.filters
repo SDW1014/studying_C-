@@ -88,6 +88,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="2024-04-25">
+      <UniqueIdentifier>{dbb6cc6d-319f-4db2-a6da-f9c60bade7a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -150,6 +153,12 @@
     <ClCompile Include="Cat20240421.cpp">
       <Filter>2024-04-21\pinterExample</Filter>
     </ClCompile>
+    <ClCompile Include="BaseClass.cpp">
+      <Filter>2024-04-25</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">
@@ -208,6 +217,12 @@
     </ClInclude>
     <ClInclude Include="Cat20240421.h">
       <Filter>2024-04-21\pinterExample</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass.h">
+      <Filter>2024-04-25</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObject.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
