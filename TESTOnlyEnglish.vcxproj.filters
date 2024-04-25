@@ -159,6 +159,9 @@
     <ClCompile Include="MyObject.cpp">
       <Filter>2024-04-25</Filter>
     </ClCompile>
+    <ClCompile Include="GcdAndLcm20240426.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">
@@ -223,6 +226,9 @@
     </ClInclude>
     <ClInclude Include="MyObject.h">
       <Filter>2024-04-25</Filter>
+    </ClInclude>
+    <ClInclude Include="GcdAndLcm20240426.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

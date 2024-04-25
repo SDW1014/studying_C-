@@ -148,6 +148,7 @@
     <ClCompile Include="convertToUpper20240421.cpp" />
     <ClCompile Include="Dog20240421.cpp" />
     <ClCompile Include="fstrema20240418.cpp" />
+    <ClCompile Include="GcdAndLcm20240426.cpp" />
     <ClCompile Include="GradeManager.cpp" />
     <ClCompile Include="incremenet_array20240419.cpp" />
     <ClCompile Include="i_want_your_setting.cpp" />
@@ -172,6 +173,7 @@
     <ClInclude Include="convertToUpper20240421.h" />
     <ClInclude Include="Dog20240421.h" />
     <ClInclude Include="fstrema20240418.h" />
+    <ClInclude Include="GcdAndLcm20240426.h" />
     <ClInclude Include="GradeManager.h" />
     <ClInclude Include="incremenet_array20240419.h" />
     <ClInclude Include="i_want_your_setting.h" />

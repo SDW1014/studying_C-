@@ -1,27 +1,15 @@
-#include <iostream>
+#include "GcdAndLcm20240426.h"
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-	vector<int> numbers = {1,2,3,4,5,6,7,8,9,10};
-	
-	vector<int> evenNumbers;
-
-	copy_if(numbers.begin(), numbers.end(), back_inserter(evenNumbers), [](int n)
+	GcdAndLcm20240426 GCD(3,5);
+	cout << GCD.gcd() << endl;
+	for (auto& num : GCD.getVec())
 	{
-		return !(n % 2);
-	});
-
-	cout << "Even Numbers : ";
-
-	for (int n : evenNumbers)
-	{
-		cout << n << endl;
+		cout << num << endl;
 	}
-	cout << endl;
 	return 0;
 }
-
