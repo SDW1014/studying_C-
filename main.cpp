@@ -3,17 +3,29 @@
 
 using namespace std;
 
-int add(int a, int b)
+bool is_even(int number)
 {
-	return a + b;
+	return (number % 2 == 0);
 }
 
 int main()
 {
-	int x = 5;
-	int y = 3;
+	vector<int> numbers;
+	for (int i = 1; i <= 10; ++i)
+	{
+		numbers.push_back(i);
 
-	int result = add(x, y);
-	cout << "The sum is: " << result << endl;
+	}
+	for (int number : numbers)
+	{
+		if (is_even(number))
+		{
+			cout << number << "is even." << endl;
+		}
+		else
+		{
+			cout << number << "is odd." << endl;
+		}
+	}
 	return 0;
 }
