@@ -1,68 +1,64 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include <random>
 
 using namespace std;
 
-int binary_search(const vector<int>& arr, int target)
-{
-	int left = 0;
-	int right = arr.size() - 1;
-
-	while (left <= right)
-	{
-		int mid = left + (right - left) / 2;
-
-		if (arr[mid] == target)
-		{
-			return mid;
-		}
-		else if (arr[mid] < target)
-		{
-			left = mid + 1;
-		}
-		else
-		{
-			right = mid - 1;
-		}
-	}
-	return -1;
-}
-
-void bubble_sort(vector<int>& arr)
-{
-	for (int i = 0; i < arr.size() - 1; i++)
-	{
-		for (int j = 0; j < arr.size() - 1 - i; j++)
-		{
-			if (arr[j] > arr[j + 1])
-			{
-				int temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-			}
-		}
-	}
-}
-
 int main()
 {
-	vector<int> arr = { 1,3,4,2,5,6,2354,234,234,234,234,234,12,312,3 };
+	int counter = 0;
+	cout << "출력할 숫자의 범위를 입력해주세요 : ";
+	cin >> counter;
 
-	bubble_sort(arr);
+	int index = 0;
 
-
-	int result = binary_search(arr, 4);
-
-	for (auto& num : arr)
-		cout << num << " ";
-
-	if (result != -1)
+	while (index <= counter)
 	{
-		cout << "Found target at index: " << result << endl;
+		if (index % 2 == 0)
+			cout << index <<endl;
+		index++;
 	}
-	else
+
+	random_device rd;
+	mt19937 gen(rd());
+	uniform_int_distribution<> dis(1, 100);
+
+	int quetion_number = dis(gen);
+
+	cout << "question_number : " << quetion_number << endl;
+
+	int result_number = 101;
+	while (result_number != quetion_number)
 	{
-		cout << "Target not found." << endl;
+		cout << "input result number (0 <= x <= 100) : ";
+
+		cin >> result_number;
 	}
+
+	cout << "this number is correct" << endl;
+
+	int n;
+	cout << "피보나치의 길이를 입력하세요 n :";
+	cin >> n;
+
+	int a = 1, b = 1;
+
+	cout << "피보나치 수열 :  " << endl;
+
+	if (n >= 1)
+		cout << a << " ";
+	if (n >= 2)
+		cout << b << " ";
+
+	int count = 3;
+	while (count <= n)
+	{
+		int c = a + b;
+		cout << c << " ";
+		a = b;
+		b = c;
+
+		count++;
+	}
+
+	return 0;
 }
